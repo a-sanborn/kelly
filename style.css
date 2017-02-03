@@ -1,0 +1,270 @@
+* {
+box-sizing: border-box;
+}
+
+
+body {
+	background-color: #FFFFFF;
+	max-width: 100%;
+	color: #1f3227;
+	font-family: 'Roboto', sans-serif;
+	}
+	
+#overlay {
+	background: #FFFFFF;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#overlayimg {
+	display: block;
+	margin: 10% auto;
+	width: 60%;
+}
+	
+	
+h1 {
+	font-family: 'Arima Madurai', cursive;
+	padding: 3%;
+}
+
+h3 {
+	background-image: url("map.png");
+	background-repeat: no-repeat;
+	background-size: 5%;
+	padding-left: 6%;
+	}
+	
+.red, #red {
+	color: #c46c50;
+	}
+	
+#time {
+	font-size: 80%;
+	line-height: 140%;
+	}
+	
+#red {
+	font-size: 100%;
+}
+	
+#photodiv {
+	max-width: 100%;
+	margin-bottom: 0;
+
+}
+
+.homepic {
+	max-width: 100%;
+	border-width: 5px 0 5px 0;
+	border-style: solid;
+	border-color: #1f3227;
+}
+
+#navbar {
+	background-color: #edd2ca;
+	padding-bottom: 3%;
+	}
+	
+	
+.p {
+	margin-bottom: 0;
+	padding: 3% 3% 3% 3%;
+	text-indent: 2em;
+	background-color: #ebe5d9;
+	}
+	
+.fact {
+	font-family: 'Arima Madurai', cursive;
+	font-size: 200%;
+	text-align: center;
+	margin: 15% 6% 15% 6%;
+	padding-top: 10%;
+	border-top-style: solid;
+	border-top-width: 2px;
+	border-top-color: #1f3227;
+	}
+	
+#appfact {
+	border-style: none;
+	}	
+	
+.contentdiv {
+	margin-bottom: 30%;
+	}
+	
+#hoursdiv {
+	display: none;
+	width: 100%;
+	background-color: #edd2ca;
+	border-radius: 3%;
+	padding: 3%;
+}
+
+
+
+footer {
+	background-color: #edd2ca;
+	margin-bottom: -5%;
+	margin-top: 1%;
+}
+
+.icon {
+	display: block;
+	padding: 3% 0 3% 0;
+	margin: 0 auto;
+	max-width: 5%;
+}
+
+.copyright {
+	text-align: center;
+	display: block;
+	}
+	
+#acuity-footer {
+	display: none;
+	}	
+	
+	
+@media screen and (min-width: 562px) {
+
+	#navbar {
+		padding-bottom: 2%;
+	}
+	
+	h3 {
+		background-size: 3%;
+		padding-left: 3.5%;
+		}
+	
+	.contentdiv {
+		max-width: 80%;
+		margin: 0 auto;
+		padding-top: 8%;
+		padding-bottom: 30%;
+	}
+	
+	.homepic {
+		width: 100%;
+		margin: 0 auto;
+		}
+		
+	#photodiv {
+		width: 100%;
+		}
+	
+	.p, .homepic {
+		border-radius: 3%;
+		line-height: 2;
+	}
+	
+	.fact{
+		margin-bottom: 7%;
+	}
+	
+	.p1 {
+		border-bottom-right-radius: 0;
+		border-bottom-left-radius: 0;
+		}
+		
+	.pm {
+		border-radius: 0;
+		}
+	
+	.pl {
+		border-top-right-radius: 0;
+		border-top-left-radius: 0;
+		}
+}
+
+@media screen and (min-width: 752px) {
+	.contentdiv {
+		max-width: 95%;
+		padding-top: 4%;
+		column-count: 2;
+		column-gap: 30px;
+		height: 100%;
+		}
+	#appointment {
+		column-count: 1;
+		}
+	#appdiv {
+		padding: 2% 0 0 0;
+		}
+	
+	#photodiv {
+		vertical-align: top;
+		padding-bottom: 5%;
+		}
+	.pdiv {
+		break-inside: avoid;
+		padding-bottom: 10%;
+		}
+
+	.fact {
+		margin-top: 0;
+		border: none;
+		padding-top: 0;
+		}
+		
+	#time {
+		display: none;
+		}
+	
+	#hoursdiv {
+		break-inside: avoid;
+		display: inline-block;
+		}
+		
+	table {
+		width: 100%;
+		font-size: 120%;
+		}
+		
+	.day {
+		text-align: left;
+		padding-left: 6%;
+		}
+	
+	.time {
+		text-align: right;
+		padding-right: 6%;
+		}
+}
+
+
+@media screen and (min-width: 911px) {
+	h3 {
+		background-size: 2%;
+		padding-left: 3%;
+	}		
+}
+
+@media screen and (min-width: 992px) {
+	h3 {
+		background-size: 10%;
+		padding-left: 3%;
+	}
+
+	#link {
+		width: 80%;
+		border-right: 2px solid;
+	}
+	
+	
+	#navbarNav {
+		padding-left: 10%;
+	}
+	
+	
+}
+
+@media screen and (min-width: 1120px) {
+	.contentdiv {
+		max-width:85%;
+	}
+
+}
