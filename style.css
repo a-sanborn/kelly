@@ -211,6 +211,12 @@ footer {
 	}
 	
 
+
+@media screen and (max-width: 561px) {
+	h3 {
+		display: none;
+		}
+}
 	
 	
 @media screen and (min-width: 562px) {
