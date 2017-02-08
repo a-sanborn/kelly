@@ -219,6 +219,10 @@ footer {
 	h1 {
 		font-size: 170%;
 	}
+	#nav {
+		margin: 0 auto 0 55%;
+		padding: 1% 0 1% 0;
+		}
 }
 	
 	
