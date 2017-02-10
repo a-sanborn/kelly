@@ -321,6 +321,8 @@ footer {
 		column-count: 2;
 		column-gap: 30px;
 		height: 100%;
+		-moz-column-count: 2;
+		-moz-column-gap: 30px;
 		}
 		
 	.contentdiv {
@@ -338,7 +340,7 @@ footer {
 		padding-bottom: 5%;
 		}
 	.pdiv {
-		break-inside: avoid;
+		page-break-inside: avoid;
 		padding-bottom: 10%;
 		}
 
@@ -353,7 +355,7 @@ footer {
 		}
 	
 	#hoursdiv {
-		break-inside: avoid;
+		page-break-inside: avoid;
 		display: inline-block;
 		}
 		
